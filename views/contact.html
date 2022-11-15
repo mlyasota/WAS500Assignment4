@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<style type="text/css">
+    /* Wrapping refrence: https://codepen.io/RajRajeshDn/pen/LKzZNe  */
+    .wrapper {
+        display: flex;
+        position: relative;
+    }
+
+    .wrapper .navpane {
+        width: 180px;
+        height: 100%;
+        /* background: #6e6e6e; */
+        margin-top: -10px;
+        padding-left: 20px;
+        border-right: 3px solid black;
+        position: fixed;
+    }
+
+    .wrapper .main_content {
+        width: 100%;
+        /* margin-left: 250px; */
+        padding-left: 250px;
+        /* border: 3px solid black; */
+    }
+    
+    .nav_items {
+        padding-bottom:7px;
+        margin-left:-15px
+    }
+</style>
+
+<div class="wrapper">
+    <nav>
+        <div class="navpane">
+            <h2>Navigation</h2>
+            <ol>
+                <li class="nav_items"><a href="index.html"><b>Home Page</b></a></li>
+                <li class="nav_items"><a href="books.html"><b>Books</b></a></li>
+                <li class="nav_items"><a href="contact.html"><b>Contact Us</b></a></li>
+                <li class="nav_items"><a href="survey.html"><b>Survey</b></a></li>
+                <li class="nav_items"><a href="honesty.html"><b>Honesty Page</b></a></li>
+            </ol>
+        </div>
+    </nav>
+    <div class="main_content">
+        <h1>1 Atkinson St, Richmond Hill, ON L4C 0H5</h1>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91998.4343261968!2d-79.49730141907835!3d43.89828006120639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2bb30c030c8d%3A0xc5286879ed8a7d58!2sCentral%20Library%20(Richmond%20Hill%20Public%20Library)!5e0!3m2!1sen!2sca!4v1663725425176!5m2!1sen!2sca"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
+</html>
